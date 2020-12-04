@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  background: #303030;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@import "~flexboxgrid/dist/flexboxgrid.css";
+
+.row {
+  margin: 0;
+}
+
+.filter-label {
+  margin: .5em 0 !important;
+  font-size: 15px;
+}
+
+.sidebar-card {
+  margin-bottom: 1em;
+}
+
+.weird-fix {
+  padding-top: 1px;
+}
