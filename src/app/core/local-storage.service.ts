@@ -3,9 +3,10 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class StorageService {
+export class LocalStorageService {
 
   constructor() {
+
   }
 
   get(key: string): any {
