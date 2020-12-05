@@ -1,0 +1,40 @@
+<mat-card class="sidebar-card">
+    <mat-card-title>
+        <h3>Parameters</h3>
+    </mat-card-title>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+        <div class="weird-fix">
+            <p class="filter-label">Distance (m):</p>
+            <mat-slider (valueChange)="distanceChanged()"
+                        [(ngModel)]="distanceSliderValue"
+                        [max]="50"
+                        [min]="0"
+                        [step]="1"
+                        [thumbLabel]="true"
+            >
+            </mat-slider>
+        </div>
+        <mat-divider></mat-divider>
+        <div>
+            <p class="filter-label">Armor Level:</p>
+            <mat-slider (valueChange)="armorLevelChanged()"
+                        [(ngModel)]="armorSliderValue"
+                        [max]="3"
+                        [min]="1"
+                        [step]="1"
+                        [thumbLabel]="true"
+            >
+            </mat-slider>
+        </div>
+        <mat-divider></mat-divider>
+        <div>
+            <p class="filter-label">Extra options:</p>
+            <mat-checkbox (change)="hasArmorPlatesChanged()"
+                          [(ngModel)]="hasArmorPlates"
+                          class="example-margin"
+            >Armor Plates
+            </mat-checkbox>
+        </div>
+    </mat-card-content>
+</mat-card>

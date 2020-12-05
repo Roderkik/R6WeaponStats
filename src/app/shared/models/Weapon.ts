@@ -1,6 +1,8 @@
-import { Error } from 'tslint/lib/error';
-
 export class Weapon {
+  armorLevel = 1;
+  rookPlates = true;
+  distance = 10;
+
   constructor(
     public name: string,
     public RPM: number,
@@ -32,13 +34,11 @@ export class Weapon {
    * using the damageRanges array.
    */
   getDamageAtRange(distance: number): number {
-    if (distance < 0) {
+    if (distance < 0)
       throw new Error('Range parameter can\'t be less than 0');
-    }
 
-    if (distance >= this.damageRanges.length) {
+    if (distance >= this.damageRanges.length)
       return this.damageRanges[this.damageRanges.length - 1];
-    }
 
     return this.damageRanges[distance];
   }
@@ -72,25 +72,23 @@ export class Weapon {
    * EDamage = (Damage At Range * Armor Modifier * Rook Plates Modifier)
    */
   EDamage(armorLevel = 1, rookPlates = false, distance = 0): number {
-    let EDamage = this.getDamageAtRange(distance);
+    let eDamage = this.getDamageAtRange(distance);
 
     switch (armorLevel) {
       case 2: {
-        EDamage = EDamage * .9;
+        eDamage = eDamage * .9;
         break;
       }
       case 3: {
-        EDamage = EDamage * .8;
+        eDamage = eDamage * .8;
         break;
       }
     }
 
-    if (rookPlates === true) {
-      EDamage = EDamage * 0.8;
-    }
+    if (rookPlates === true)
+      eDamage = eDamage * 0.8;
 
-    return EDamage;
+    return eDamage;
   }
-
 
 }

@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-title>
+        <h3>Filters</h3>
+    </mat-card-title>
+    <mat-divider></mat-divider>
+    <mat-card-content>
+        <div>
+            <mat-form-field>
+                <mat-label>Search...</mat-label>
+                <input (keyup)="onFilterKeyUp($event)"
+                       matInput
+                       placeholder="Ex. R4-C"
+                >
+            </mat-form-field>
+        </div>
+    </mat-card-content>
+</mat-card>

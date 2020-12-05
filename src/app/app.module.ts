@@ -16,10 +16,18 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { ParametersComponent } from './shared/components/parameters/parameters.component';
+import { SearchFilterComponent } from './shared/components/search-filter/search-filter.component';
+import { WeaponsTableComponent } from './shared/components/weapons-table/weapons-table.component';
+import { CompareComponent } from './core/pages/compare/compare.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParametersComponent,
+    SearchFilterComponent,
+    WeaponsTableComponent,
+    CompareComponent
   ],
   imports: [
     BrowserModule,
