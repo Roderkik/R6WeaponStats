@@ -1,3 +1,10 @@
-<app-search-filter (filterEvent)="applyFilter($event)"></app-search-filter><br>
-<app-parameters></app-parameters><br>
-<app-weapons-table></app-weapons-table>
+<div class="row">
+    <div class="col-lg-3">
+        <app-search-filter (filterEvent)="applyFilter($event)"></app-search-filter>
+        <app-parameters></app-parameters>
+    </div>
+    <div class="col-lg-9">
+        <app-weapons-table></app-weapons-table>
+    </div>
+</div>
+

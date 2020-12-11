@@ -4,10 +4,10 @@
     </mat-card-title>
     <mat-divider></mat-divider>
     <mat-card-content>
-        <div class="weird-fix">
-            <p class="filter-label">Distance (m):</p>
-            <mat-slider (valueChange)="distanceChanged()"
-                        [(ngModel)]="distanceSliderValue"
+        <div>
+            <p>Distance (m): {{ this.comparer.parameters.distance }}</p>
+            <mat-slider (valueChange)="distanceChanged($event)"
+                        [(ngModel)]="this.comparer.parameters.distance"
                         [max]="50"
                         [min]="0"
                         [step]="1"
@@ -17,9 +17,9 @@
         </div>
         <mat-divider></mat-divider>
         <div>
-            <p class="filter-label">Armor Level:</p>
-            <mat-slider (valueChange)="armorLevelChanged()"
-                        [(ngModel)]="armorSliderValue"
+            <p class="pt-1">Armor Level: {{ this.comparer.parameters.armorLevel }}</p>
+            <mat-slider (valueChange)="armorLevelChanged($event)"
+                        [(ngModel)]="this.comparer.parameters.armorLevel"
                         [max]="3"
                         [min]="1"
                         [step]="1"
@@ -29,11 +29,11 @@
         </div>
         <mat-divider></mat-divider>
         <div>
-            <p class="filter-label">Extra options:</p>
-            <mat-checkbox (change)="hasArmorPlatesChanged()"
-                          [(ngModel)]="hasArmorPlates"
+            <p class="pt-1">Extra options:</p>
+            <mat-checkbox (change)="hasArmorPlatesChanged($event)"
+                          [(ngModel)]="this.comparer.parameters.hasRookPlates"
                           class="example-margin"
-            >Armor Plates
+            >Armor Plates: {{ this.comparer.parameters.hasRookPlates ? 'Yes' : 'No' }}
             </mat-checkbox>
         </div>
     </mat-card-content>

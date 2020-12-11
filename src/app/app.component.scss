@@ -1,3 +1,10 @@
+mat-toolbar {
+  margin-bottom: 1rem;
+}
 
-
-
+// flexboxgrid rows are buggy for some reason.
+// probably using them in a wrong manner...
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}

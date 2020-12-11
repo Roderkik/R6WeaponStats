@@ -1,41 +1,37 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { ComparerService } from '../../../core/comparer.service';
+import { WeaponParameters } from '../../models/WeaponParameters';
+import { MatCheckboxChange } from '@angular/material/checkbox';
 
 @Component({
   selector: 'app-parameters',
   templateUrl: './parameters.component.html',
-  styleUrls: ['./parameters.component.scss']
+  styleUrls: ['./parameters.component.scss'],
 })
 export class ParametersComponent implements OnInit {
-  armorSliderValue = 2;
-  distanceSliderValue = 10;
-  hasArmorPlates = true;
+  @Output() parametersChanged = new EventEmitter<WeaponParameters>();
 
-  constructor(private comparer: ComparerService) {
+  constructor(public comparer: ComparerService) {
   }
 
   ngOnInit(): void {
   }
 
-  distanceChanged(): void {
-    this.updateParameters();
+  distanceChanged($event: number): void {
+    this.comparer.parameters.distance = $event;
+    this.comparer.updateStoredParameters();
+    this.parametersChanged.emit(this.comparer.parameters);
   }
 
-  armorLevelChanged(): void {
-    this.updateParameters();
+  armorLevelChanged($event: number): void {
+    this.comparer.parameters.armorLevel = $event;
+    this.comparer.updateStoredParameters();
+    this.parametersChanged.emit(this.comparer.parameters);
   }
 
-  hasArmorPlatesChanged(): void {
-    this.updateParameters();
+  hasArmorPlatesChanged($event: MatCheckboxChange): void {
+    this.comparer.parameters.hasRookPlates = $event.checked;
+    this.comparer.updateStoredParameters();
+    this.parametersChanged.emit(this.comparer.parameters);
   }
-
-  private updateParameters(): void {
-    this.comparer.parameters = {
-      armorLevel: this.armorSliderValue,
-      hasRookPlates: this.hasArmorPlates,
-      distance: this.distanceSliderValue
-    };
-  }
-
-
 }

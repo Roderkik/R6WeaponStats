@@ -20,6 +20,9 @@ import { ParametersComponent } from './shared/components/parameters/parameters.c
 import { SearchFilterComponent } from './shared/components/search-filter/search-filter.component';
 import { WeaponsTableComponent } from './shared/components/weapons-table/weapons-table.component';
 import { CompareComponent } from './core/pages/compare/compare.component';
+import { HttpClientModule } from '@angular/common/http';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTooltipModule } from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -27,12 +30,13 @@ import { CompareComponent } from './core/pages/compare/compare.component';
     ParametersComponent,
     SearchFilterComponent,
     WeaponsTableComponent,
-    CompareComponent
+    CompareComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatTableModule,
     MatSortModule,
     MatCardModule,
@@ -44,10 +48,12 @@ import { CompareComponent } from './core/pages/compare/compare.component';
     MatInputModule,
     MatGridListModule,
     FormsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatPaginatorModule,
+    MatTooltipModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {
 }

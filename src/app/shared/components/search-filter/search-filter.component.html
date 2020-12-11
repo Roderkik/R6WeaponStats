@@ -4,14 +4,41 @@
     </mat-card-title>
     <mat-divider></mat-divider>
     <mat-card-content>
-        <div>
-            <mat-form-field>
-                <mat-label>Search...</mat-label>
-                <input (keyup)="onFilterKeyUp($event)"
-                       matInput
-                       placeholder="Ex. R4-C"
-                >
-            </mat-form-field>
-        </div>
+        <p class="pt-1">Search weapon:</p>
+        <mat-form-field class="filter-field">
+            <input (keyup)="onFilterKeyUp($event)"
+                   matInput
+                   placeholder="Ex. R4-C"
+            >
+        </mat-form-field>
+        <mat-divider></mat-divider>
+        <p class="pt-1">Weapon types:</p>
+        <ng-container *ngFor="let type of weaponTypes">
+            <mat-checkbox #typeCheckboxes
+                          (change)="onCheckedType()"
+                          [name]="type"
+                          class="example-margin"
+            >{{ type }}</mat-checkbox>
+        </ng-container>
+        <div class="mb-1"></div>
+        <mat-divider></mat-divider>
+        <p class="pt-1">Weapon action:</p>
+        <ng-container *ngFor="let action of weaponActions">
+            <mat-checkbox #actionCheckboxes
+                          (change)="onCheckedAction()"
+                          [name]="action"
+                          class="example-margin"
+            >{{ action }}</mat-checkbox>
+        </ng-container>
+        <div class="mb-1"></div>
+        <mat-divider></mat-divider>
+        <p class="pt-1">Weapon slot:</p>
+        <ng-container *ngFor="let slot of weaponSlots">
+            <mat-checkbox #slotCheckboxes
+                          (change)="onCheckedSlot()"
+                          [name]="slot"
+                          class="example-margin"
+            >{{ slot }}</mat-checkbox>
+        </ng-container>
     </mat-card-content>
 </mat-card>

@@ -1,10 +1,14 @@
 import { Injectable } from '@angular/core';
 
+export enum StorageKeys {
+  WeaponParameters = 'weaponParameters',
+  WeaponFilters = 'weaponFilters',
+}
+
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class LocalStorageService {
-
   constructor() {
   }
 
@@ -14,5 +18,9 @@ export class LocalStorageService {
 
   set(key: string, item: any): void {
     localStorage.setItem(key, JSON.stringify(item));
+  }
+
+  exists(key: string): boolean {
+    return localStorage.getItem(key) !== null;
   }
 }

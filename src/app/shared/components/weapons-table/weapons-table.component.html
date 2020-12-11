@@ -1,8 +1,10 @@
 <mat-card>
     <mat-card-content>
-        <table [dataSource]="dataSource"
+        <table #table
+               (matSortChange)="sortWeapons()"
                mat-table
                matSort
+               [dataSource]="dataSource"
         >
             <ng-container matColumnDef="name">
                 <th *matHeaderCellDef
@@ -22,12 +24,15 @@
                 </th>
                 <td *matCellDef="let weapon"
                     mat-cell
-                > {{weapon.EDamage(comparer.parameters.armorLevel, comparer.parameters.hasRookPlates, comparer.parameters.distance) | number: '1.0-1'}} </td>
+                > {{weapon.EDamage(comparer.parameters) | number: '1.0-1'}} </td>
             </ng-container>
             <ng-container matColumnDef="RPM">
                 <th *matHeaderCellDef
                     mat-header-cell
                     mat-sort-header
+                    matTooltip="Rounds per minute"
+                    matTooltipPosition="before"
+                    matTooltipShowDelay="1000"
                 >RPM
                 </th>
                 <td *matCellDef="let weapon"
@@ -38,28 +43,40 @@
                 <th *matHeaderCellDef
                     mat-header-cell
                     mat-sort-header
-                >DPS<sup>&nbsp;(L1 Armor, 0M Distance)</sup></th>
+                    matTooltip="Damage per second"
+                    matTooltipPosition="before"
+                    matTooltipShowDelay="1000"
+                >DPS
+                </th>
                 <td *matCellDef="let weapon"
                     mat-cell
-                > {{weapon.EDPS(comparer.parameters.armorLevel, comparer.parameters.hasRookPlates, comparer.parameters.distance) | number: '1.0-1'}} </td>
+                > {{weapon.EDPS(comparer.parameters) | number: '1.0-1'}} </td>
             </ng-container>
             <ng-container matColumnDef="TTK">
                 <th *matHeaderCellDef
                     mat-header-cell
                     mat-sort-header
-                >TTK<sup>&nbsp;(L1 Armor, 0M Distance)</sup></th>
+                    matTooltip="Time to kill (milliseconds)"
+                    matTooltipPosition="before"
+                    matTooltipShowDelay="1000"
+                >TTK
+                </th>
                 <td *matCellDef="let weapon"
                     mat-cell
-                > {{weapon.ETTK(comparer.parameters.armorLevel, comparer.parameters.hasRookPlates, comparer.parameters.distance) | number: '1.0-1'}} </td>
+                > {{weapon.ETTK(comparer.parameters) | number: '1.0-1'}} </td>
             </ng-container>
             <ng-container matColumnDef="STK">
                 <th *matHeaderCellDef
                     mat-header-cell
                     mat-sort-header
-                >STK<sup>&nbsp;(L1 Armor, 0M Distance)</sup></th>
+                    matTooltip="Shots to kill"
+                    matTooltipPosition="before"
+                    matTooltipShowDelay="1000"
+                >STK
+                </th>
                 <td *matCellDef="let weapon"
                     mat-cell
-                > {{weapon.ESTK(comparer.parameters.armorLevel, comparer.parameters.hasRookPlates, comparer.parameters.distance)}} </td>
+                > {{weapon.ESTK(comparer.parameters)}} </td>
             </ng-container>
 
             <tr *matHeaderRowDef="['name', 'damage', 'RPM', 'DPS', 'TTK', 'STK']"
@@ -69,5 +86,8 @@
                 mat-row
             ></tr>
         </table>
+        <mat-paginator [pageSizeOptions]="[14, 5, 10, 11, 12, 13, 15, 20, 50]"
+                       showFirstLastButtons
+        ></mat-paginator>
     </mat-card-content>
 </mat-card>
