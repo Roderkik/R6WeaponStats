@@ -24,4 +24,12 @@ export class CompareComponent {
     // Very jank way of fixing filter to run even when no input provided...
     this.weaponsTable.dataSource.filter = JSON.stringify(predicateFilter);
   }
+
+  /**
+   * Extra call to sorting of table as parameter updates
+   * are not detected by the weapons table's MatSort
+   */
+  updateTable(): void {
+    this.weaponsTable.sort.sortChange.emit();
+  }
 }

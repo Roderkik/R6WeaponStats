@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-lg-3">
         <app-search-filter (filterEvent)="applyFilter($event)"></app-search-filter>
-        <app-parameters></app-parameters>
+        <app-parameters (parametersChanged)="updateTable()"></app-parameters>
     </div>
     <div class="col-lg-9">
         <app-weapons-table></app-weapons-table>
