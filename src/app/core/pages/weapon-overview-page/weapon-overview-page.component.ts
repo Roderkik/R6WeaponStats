@@ -4,12 +4,12 @@ import { WeaponsTableComponent } from '../../../shared/components/weapons-table/
 import { PredicateFilters } from '../../../shared/models/PredicateFilters';
 
 @Component({
-  selector: 'app-compare',
-  templateUrl: './compare.component.html',
-  styleUrls: ['./compare.component.scss'],
+  selector: 'app-weapon-overview-page',
+  templateUrl: './weapon-overview-page.component.html',
+  styleUrls: ['./weapon-overview-page.component.scss'],
   providers: [ComparerService],
 })
-export class CompareComponent {
+export class WeaponOverviewPageComponent {
   @ViewChild(WeaponsTableComponent) weaponsTable: WeaponsTableComponent;
 
   constructor(private comparer: ComparerService) {

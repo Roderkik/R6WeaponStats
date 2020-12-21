@@ -19,7 +19,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { ParametersComponent } from './shared/components/parameters/parameters.component';
 import { SearchFilterComponent } from './shared/components/search-filter/search-filter.component';
 import { WeaponsTableComponent } from './shared/components/weapons-table/weapons-table.component';
-import { CompareComponent } from './core/pages/compare/compare.component';
+import { WeaponOverviewPageComponent } from './core/pages/weapon-overview-page/weapon-overview-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTooltipModule } from '@angular/material/tooltip';
@@ -31,7 +31,7 @@ import { WeaponPageComponent } from './core/pages/weapon-page/weapon-page.compon
     ParametersComponent,
     SearchFilterComponent,
     WeaponsTableComponent,
-    CompareComponent,
+    WeaponOverviewPageComponent,
     WeaponPageComponent,
   ],
   imports: [
