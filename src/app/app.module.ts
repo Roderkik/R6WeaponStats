@@ -23,6 +23,7 @@ import { CompareComponent } from './core/pages/compare/compare.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import { WeaponPageComponent } from './core/pages/weapon-page/weapon-page.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     SearchFilterComponent,
     WeaponsTableComponent,
     CompareComponent,
+    WeaponPageComponent,
   ],
   imports: [
     BrowserModule,
