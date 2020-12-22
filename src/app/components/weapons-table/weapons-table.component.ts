@@ -2,7 +2,7 @@ import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { Weapon } from '../../models/Weapon';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatSort } from '@angular/material/sort';
-import { ComparerService } from '../../../core/comparer.service';
+import { ComparerService } from '../../services/comparer.service';
 import { MatPaginator } from '@angular/material/paginator';
 
 @Component({

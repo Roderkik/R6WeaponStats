@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
-import { ComparerService } from '../../comparer.service';
-import { WeaponsTableComponent } from '../../../shared/components/weapons-table/weapons-table.component';
-import { PredicateFilters } from '../../../shared/models/PredicateFilters';
+import { ComparerService } from '../../../services/comparer.service';
+import { WeaponsTableComponent } from '../../weapons-table/weapons-table.component';
+import { PredicateFilters } from '../../../models/PredicateFilters';
 
 @Component({
   selector: 'app-weapon-overview-page',

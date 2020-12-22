@@ -8,7 +8,7 @@ import {
   ViewChildren,
 } from '@angular/core';
 import { MatCheckbox } from '@angular/material/checkbox';
-import { ComparerService } from '../../../core/comparer.service';
+import { ComparerService } from '../../services/comparer.service';
 import { WeaponFilters } from '../../models/WeaponFilters';
 
 @Component({

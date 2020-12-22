@@ -16,14 +16,14 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { ParametersComponent } from './shared/components/parameters/parameters.component';
-import { SearchFilterComponent } from './shared/components/search-filter/search-filter.component';
-import { WeaponsTableComponent } from './shared/components/weapons-table/weapons-table.component';
-import { WeaponOverviewPageComponent } from './core/pages/weapon-overview-page/weapon-overview-page.component';
+import { ParametersComponent } from './components/parameters/parameters.component';
+import { SearchFilterComponent } from './components/search-filter/search-filter.component';
+import { WeaponsTableComponent } from './components/weapons-table/weapons-table.component';
+import { WeaponOverviewPageComponent } from './components/pages/weapon-overview-page/weapon-overview-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { WeaponPageComponent } from './core/pages/weapon-page/weapon-page.component';
+import { WeaponPageComponent } from './components/pages/weapon-page/weapon-page.component';
 
 @NgModule({
   declarations: [
