@@ -1,6 +1,11 @@
 [
   {
     "name": "CSRX 300*",
+    "usedBy": [
+      {
+        "name": "Kali"
+      }
+    ],
     "type": "Sniper",
     "action": "Semi",
     "slot": "Primary",
@@ -52,6 +57,14 @@
   },
   {
     "name": "BOSG 12.2",
+    "usedBy": [
+      {
+        "name": "Vigil"
+      },
+      {
+        "name": "Dokkaebi"
+      }
+    ],
     "type": "Shotgun",
     "action": "Semi",
     "slot": "Primary",
@@ -103,6 +116,14 @@
   },
   {
     "name": "TCSG12",
+    "usedBy": [
+      {
+        "name": "Kaid"
+      },
+      {
+        "name": "Goyo"
+      }
+    ],
     "type": "Shotgun",
     "action": "Semi",
     "slot": "Primary",
@@ -154,6 +175,14 @@
   },
   {
     "name": "ACS12",
+    "usedBy": [
+      {
+        "name": "Maestro"
+      },
+      {
+        "name": "Alibi"
+      }
+    ],
     "type": "Shotgun",
     "action": "Semi",
     "slot": "Primary",
@@ -205,6 +234,11 @@
   },
   {
     "name": "OTs-03",
+    "usedBy": [
+      {
+        "name": "Glaz"
+      }
+    ],
     "type": "DMR",
     "action": "Semi",
     "slot": "Primary",
@@ -256,6 +290,11 @@
   },
   {
     "name": "SR-25",
+    "usedBy": [
+      {
+        "name": "Blackbeard"
+      }
+    ],
     "type": "DMR",
     "action": "Semi",
     "slot": "Primary",
@@ -307,6 +346,11 @@
   },
   {
     "name": "CAMRS",
+    "usedBy": [
+      {
+        "name": "Buck"
+      }
+    ],
     "type": "DMR",
     "action": "Semi",
     "slot": "Primary",
@@ -358,6 +402,14 @@
   },
   {
     "name": "417",
+    "usedBy": [
+      {
+        "name": "Twitch"
+      },
+      {
+        "name": "Lion"
+      }
+    ],
     "type": "DMR",
     "action": "Semi",
     "slot": "Primary",
@@ -409,6 +461,11 @@
   },
   {
     "name": "AR-15.50",
+    "usedBy": [
+      {
+        "name": "Maverick"
+      }
+    ],
     "type": "DMR",
     "action": "Semi",
     "slot": "Primary",
@@ -460,6 +517,14 @@
   },
   {
     "name": "MK 14 EBR",
+    "usedBy": [
+      {
+        "name": "Dokkaebi"
+      },
+      {
+        "name": "Aruni"
+      }
+    ],
     "type": "DMR",
     "action": "Semi",
     "slot": "Primary",
@@ -511,6 +576,11 @@
   },
   {
     "name": "DP27",
+    "usedBy": [
+      {
+        "name": "Tachanka"
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -562,6 +632,11 @@
   },
   {
     "name": "M249",
+    "usedBy": [
+      {
+        "name": "Capitao"
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -613,6 +688,11 @@
   },
   {
     "name": "M249 SAW",
+    "usedBy": [
+      {
+        "name": "Gridlock"
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -664,6 +744,14 @@
   },
   {
     "name": "6P41",
+    "usedBy": [
+      {
+        "name": "Fuze"
+      },
+      {
+        "name": "Finka"
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -715,6 +803,11 @@
   },
   {
     "name": "T-95 LSW",
+    "usedBy": [
+      {
+        "name": "Ying"
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -766,6 +859,11 @@
   },
   {
     "name": "LMG-E",
+    "usedBy": [
+      {
+        "name": "Zofia"
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -817,6 +915,14 @@
   },
   {
     "name": "G8A1",
+    "usedBy": [
+      {
+        "name": "IQ"
+      },
+      {
+        "name": "Amaru"
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -868,6 +974,11 @@
   },
   {
     "name": "ALDA 5.56",
+    "usedBy": [
+      {
+        "name": "Maestro "
+      }
+    ],
     "type": "LMG",
     "action": "Auto",
     "slot": "Primary",
@@ -919,6 +1030,11 @@
   },
   {
     "name": "PARA-308",
+    "usedBy": [
+      {
+        "name": "Capitao"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -970,6 +1086,11 @@
   },
   {
     "name": "552 Com",
+    "usedBy": [
+      {
+        "name": "IQ"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1021,6 +1142,14 @@
   },
   {
     "name": "ARX200",
+    "usedBy": [
+      {
+        "name": "Nomad"
+      },
+      {
+        "name": "Iana"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1072,6 +1201,11 @@
   },
   {
     "name": "556xi",
+    "usedBy": [
+      {
+        "name": "Thermite"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1123,6 +1257,14 @@
   },
   {
     "name": "L85A2",
+    "usedBy": [
+      {
+        "name": "Sledge"
+      },
+      {
+        "name": "Thatcher"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1174,6 +1316,11 @@
   },
   {
     "name": "C7E",
+    "usedBy": [
+      {
+        "name": "Jackal"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1225,6 +1372,11 @@
   },
   {
     "name": "M762",
+    "usedBy": [
+      {
+        "name": "Zofia"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1276,6 +1428,14 @@
   },
   {
     "name": "AK-12",
+    "usedBy": [
+      {
+        "name": "Fuze"
+      },
+      {
+        "name": "Ace"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1327,6 +1487,11 @@
   },
   {
     "name": "SC3000K",
+    "usedBy": [
+      {
+        "name": "Zero"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1378,6 +1543,11 @@
   },
   {
     "name": "M4",
+    "usedBy": [
+      {
+        "name": "Maverick"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1429,6 +1599,11 @@
   },
   {
     "name": "V308",
+    "usedBy": [
+      {
+        "name": "Lion"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1480,6 +1655,11 @@
   },
   {
     "name": "AK-74M",
+    "usedBy": [
+      {
+        "name": "Nomad "
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1531,6 +1711,11 @@
   },
   {
     "name": "416-C",
+    "usedBy": [
+      {
+        "name": "Jager"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1582,6 +1767,11 @@
   },
   {
     "name": "MK17 CQB",
+    "usedBy": [
+      {
+        "name": "Blackbeard"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1633,6 +1823,11 @@
   },
   {
     "name": "AUG A2",
+    "usedBy": [
+      {
+        "name": "IQ"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1684,6 +1879,11 @@
   },
   {
     "name": "AR33",
+    "usedBy": [
+      {
+        "name": "Thatcher"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1735,6 +1935,11 @@
   },
   {
     "name": "Spear .308",
+    "usedBy": [
+      {
+        "name": "Finka"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1786,6 +1991,11 @@
   },
   {
     "name": "TYPE-89",
+    "usedBy": [
+      {
+        "name": "Hibana"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1837,6 +2047,11 @@
   },
   {
     "name": "C8-SFW",
+    "usedBy": [
+      {
+        "name": "Buck"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1888,6 +2103,11 @@
   },
   {
     "name": "F90",
+    "usedBy": [
+      {
+        "name": "Gridlock"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1939,6 +2159,11 @@
   },
   {
     "name": "F2",
+    "usedBy": [
+      {
+        "name": "Twitch  "
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -1990,6 +2215,11 @@
   },
   {
     "name": "R4-C",
+    "usedBy": [
+      {
+        "name": "Ash"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -2041,6 +2271,14 @@
   },
   {
     "name": "G36C",
+    "usedBy": [
+      {
+        "name": "Ash"
+      },
+      {
+        "name": "Iana"
+      }
+    ],
     "type": "AR",
     "action": "Auto",
     "slot": "Primary",
@@ -2092,6 +2330,17 @@
   },
   {
     "name": "C75 Auto",
+    "usedBy": [
+      {
+        "name": "Dokkaebi"
+      },
+      {
+        "name": "Vigil"
+      },
+      {
+        "name": "Kali"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Sidearm",
@@ -2143,6 +2392,14 @@
   },
   {
     "name": "BEARING 9",
+    "usedBy": [
+      {
+        "name": "Hibana"
+      },
+      {
+        "name": "Echo"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Sidearm",
@@ -2194,6 +2451,20 @@
   },
   {
     "name": "SMG-11",
+    "usedBy": [
+      {
+        "name": "Sledge"
+      },
+      {
+        "name": "Smoke"
+      },
+      {
+        "name": "Mute"
+      },
+      {
+        "name": "Amaru"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Sidearm",
@@ -2245,6 +2516,14 @@
   },
   {
     "name": "SPSMG9",
+    "usedBy": [
+      {
+        "name": "Clash"
+      },
+      {
+        "name": "Kali"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Sidearm",
@@ -2296,6 +2575,17 @@
   },
   {
     "name": "SMG-12",
+    "usedBy": [
+      {
+        "name": "Dokkaebi"
+      },
+      {
+        "name": "Vigil"
+      },
+      {
+        "name": "Warden"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Sidearm",
@@ -2347,6 +2637,11 @@
   },
   {
     "name": "9mm C1",
+    "usedBy": [
+      {
+        "name": "Frost"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2398,6 +2693,14 @@
   },
   {
     "name": "UMP45",
+    "usedBy": [
+      {
+        "name": "Pulse"
+      },
+      {
+        "name": "Castle"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2449,6 +2752,11 @@
   },
   {
     "name": "Commando 9",
+    "usedBy": [
+      {
+        "name": "Mozzie"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2500,6 +2808,11 @@
   },
   {
     "name": "M12",
+    "usedBy": [
+      {
+        "name": "Caveira"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2551,6 +2864,11 @@
   },
   {
     "name": "K1A",
+    "usedBy": [
+      {
+        "name": "Vigil "
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2602,6 +2920,11 @@
   },
   {
     "name": "AUG A3",
+    "usedBy": [
+      {
+        "name": "Kaid "
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2653,6 +2976,11 @@
   },
   {
     "name": "PDW9",
+    "usedBy": [
+      {
+        "name": "Jackal "
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2704,6 +3032,11 @@
   },
   {
     "name": "9x19 VSN",
+    "usedBy": [
+      {
+        "name": "Kapkan"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2755,6 +3088,11 @@
   },
   {
     "name": "MP7",
+    "usedBy": [
+      {
+        "name": "Bandit"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2806,6 +3144,14 @@
   },
   {
     "name": "T-5 SMG",
+    "usedBy": [
+      {
+        "name": "Lesion"
+      },
+      {
+        "name": "Oryx"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2857,6 +3203,14 @@
   },
   {
     "name": "MP5K",
+    "usedBy": [
+      {
+        "name": "Mute"
+      },
+      {
+        "name": "Wamai"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2908,6 +3262,11 @@
   },
   {
     "name": "MP5 SD",
+    "usedBy": [
+      {
+        "name": "Echo"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -2959,6 +3318,17 @@
   },
   {
     "name": "MP5",
+    "usedBy": [
+      {
+        "name": "Doc"
+      },
+      {
+        "name": "rook"
+      },
+      {
+        "name": "Melusi"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3010,6 +3380,14 @@
   },
   {
     "name": "FMG-9",
+    "usedBy": [
+      {
+        "name": "Smoke"
+      },
+      {
+        "name": "Nokk"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3061,6 +3439,14 @@
   },
   {
     "name": "P10 RONI",
+    "usedBy": [
+      {
+        "name": "Mozzie"
+      },
+      {
+        "name": "Aruni"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3112,6 +3498,11 @@
   },
   {
     "name": "Mx4 Storm",
+    "usedBy": [
+      {
+        "name": "Alibi"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3163,6 +3554,14 @@
   },
   {
     "name": "MPX",
+    "usedBy": [
+      {
+        "name": "Valkyrie"
+      },
+      {
+        "name": "Warden"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3214,6 +3613,11 @@
   },
   {
     "name": "Scorpion",
+    "usedBy": [
+      {
+        "name": "Ela"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3265,6 +3669,14 @@
   },
   {
     "name": "P90",
+    "usedBy": [
+      {
+        "name": "Doc"
+      },
+      {
+        "name": "Rook "
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3316,6 +3728,11 @@
   },
   {
     "name": "Vector",
+    "usedBy": [
+      {
+        "name": "Mira"
+      }
+    ],
     "type": "SMG",
     "action": "Auto",
     "slot": "Primary",
@@ -3367,6 +3784,11 @@
   },
   {
     "name": "Luison",
+    "usedBy": [
+      {
+        "name": "Caveira"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3418,6 +3840,17 @@
   },
   {
     "name": "Keratos .357",
+    "usedBy": [
+      {
+        "name": "Maestro"
+      },
+      {
+        "name": "Alibi"
+      },
+      {
+        "name": "Wamai"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3469,6 +3902,26 @@
   },
   {
     "name": "LFP586",
+    "usedBy": [
+      {
+        "name": "Twitch"
+      },
+      {
+        "name": "Montagne"
+      },
+      {
+        "name": "Lion"
+      },
+      {
+        "name": "Doc"
+      },
+      {
+        "name": "Rook"
+      },
+      {
+        "name": "Kaid"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3520,6 +3973,14 @@
   },
   {
     "name": ".44 Mag",
+    "usedBy": [
+      {
+        "name": "Nomad"
+      },
+      {
+        "name": "Kaid"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3571,6 +4032,17 @@
   },
   {
     "name": "D-50",
+    "usedBy": [
+      {
+        "name": "Blackbear"
+      },
+      {
+        "name": "Valkyrie"
+      },
+      {
+        "name": "Nokk"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3622,6 +4094,23 @@
   },
   {
     "name": "PMM",
+    "usedBy": [
+      {
+        "name": "Glaz"
+      },
+      {
+        "name": "Fuze"
+      },
+      {
+        "name": "Finka"
+      },
+      {
+        "name": "Kapkan"
+      },
+      {
+        "name": "Tachanka"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3673,6 +4162,14 @@
   },
   {
     "name": "Q-929",
+    "usedBy": [
+      {
+        "name": "Ying"
+      },
+      {
+        "name": "Lesion"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3724,6 +4221,17 @@
   },
   {
     "name": "M45",
+    "usedBy": [
+      {
+        "name": "Ash"
+      },
+      {
+        "name": "Thermite"
+      },
+      {
+        "name": "Pulse"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3775,6 +4283,11 @@
   },
   {
     "name": "1911 TACOPS",
+    "usedBy": [
+      {
+        "name": "Maverick"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3826,6 +4339,17 @@
   },
   {
     "name": "P229",
+    "usedBy": [
+      {
+        "name": "Hibana"
+      },
+      {
+        "name": "Echo"
+      },
+      {
+        "name": "Goyo"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3877,6 +4401,20 @@
   },
   {
     "name": "P226",
+    "usedBy": [
+      {
+        "name": "Sledge"
+      },
+      {
+        "name": "Thatcher"
+      },
+      {
+        "name": "Smoke"
+      },
+      {
+        "name": "Mute"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3928,6 +4466,17 @@
   },
   {
     "name": "USP40",
+    "usedBy": [
+      {
+        "name": "Jackal"
+      },
+      {
+        "name": "Mira"
+      },
+      {
+        "name": "Oryx"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -3979,6 +4528,17 @@
   },
   {
     "name": "Mk1 9mm",
+    "usedBy": [
+      {
+        "name": "Buck"
+      },
+      {
+        "name": "Frost"
+      },
+      {
+        "name": "Iana"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4030,6 +4590,14 @@
   },
   {
     "name": "SDP 9mm",
+    "usedBy": [
+      {
+        "name": "Gridlock"
+      },
+      {
+        "name": "Mozzie"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4081,6 +4649,26 @@
   },
   {
     "name": "P9",
+    "usedBy": [
+      {
+        "name": "Twitch"
+      },
+      {
+        "name": "Montagne"
+      },
+      {
+        "name": "Lion"
+      },
+      {
+        "name": "Doc"
+      },
+      {
+        "name": "Rook"
+      },
+      {
+        "name": "Ace"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4132,6 +4720,23 @@
   },
   {
     "name": "P12",
+    "usedBy": [
+      {
+        "name": "Blitz"
+      },
+      {
+        "name": "Iq"
+      },
+      {
+        "name": "Jager"
+      },
+      {
+        "name": "Bandit"
+      },
+      {
+        "name": "Wamai"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4183,6 +4788,23 @@
   },
   {
     "name": "GSH-18",
+    "usedBy": [
+      {
+        "name": "Glaz"
+      },
+      {
+        "name": "Fuze"
+      },
+      {
+        "name": "Finka"
+      },
+      {
+        "name": "Kapkan"
+      },
+      {
+        "name": "Tachanka"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4234,6 +4856,17 @@
   },
   {
     "name": "PRB92",
+    "usedBy": [
+      {
+        "name": "Capitao"
+      },
+      {
+        "name": "Nomad"
+      },
+      {
+        "name": "Aruni"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4285,6 +4918,26 @@
   },
   {
     "name": "5.7 USG",
+    "usedBy": [
+      {
+        "name": "Ash"
+      },
+      {
+        "name": "Thermite"
+      },
+      {
+        "name": "Castle"
+      },
+      {
+        "name": "Pulse"
+      },
+      {
+        "name": "Nokk"
+      },
+      {
+        "name": "Zero"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4336,6 +4989,14 @@
   },
   {
     "name": "P-10C",
+    "usedBy": [
+      {
+        "name": "Clash"
+      },
+      {
+        "name": "Warden"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",
@@ -4387,6 +5048,17 @@
   },
   {
     "name": "RG15",
+    "usedBy": [
+      {
+        "name": "Zofia"
+      },
+      {
+        "name": "Ela"
+      },
+      {
+        "name": "Melusi"
+      }
+    ],
     "type": "Handgun",
     "action": "Semi",
     "slot": "Sidearm",

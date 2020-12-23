@@ -1,4 +1,5 @@
 import { WeaponParameters } from './WeaponParameters';
+import { Operator } from './Operator';
 
 export class Weapon {
   public name: string;
@@ -7,6 +8,8 @@ export class Weapon {
   public slot: string;
   public RPM: number;
   public damageRanges: number[];
+
+  public usedBy?: Operator[];
 
   constructor(init?: Partial<Weapon>) {
     Object.assign(this, init);

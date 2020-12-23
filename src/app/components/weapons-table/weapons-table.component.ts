@@ -4,6 +4,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MatSort } from '@angular/material/sort';
 import { ComparerService } from '../../services/comparer.service';
 import { MatPaginator } from '@angular/material/paginator';
+import { Operator } from '../../models/Operator';
 
 @Component({
   selector: 'app-weapons-table',
@@ -30,6 +31,7 @@ export class WeaponsTableComponent implements AfterViewInit {
           this.weapons.push(
             new Weapon({
               name: weapon.name,
+              usedBy: weapon.usedBy.map(value => new Operator({name: value.name})),
               type: weapon.type,
               action: weapon.action,
               slot: weapon.slot,
