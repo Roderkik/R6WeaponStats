@@ -1,11 +1,23 @@
-<mat-toolbar>
-    <div class="container">
-        <div class="col">
-            <h1>Rainbow Six: Siege <span class="mat-small">Weapon Stats</span></h1>
-        </div>
+<mat-toolbar class="mat-elevation-z4">
+  <div class="container toolbar-items">
+    <div class="col">
+      <h1>Rainbow Six: Siege <span class="mat-small">Weapon Stats</span></h1>
     </div>
+    <div>
+      <button (click)="sidenav.toggle()" mat-button>Open</button>
+    </div>
+  </div>
 </mat-toolbar>
+
+<mat-sidenav-container autosize>
+  <mat-sidenav #sidenav fixedInViewport="true">
+    <p>
+      <button mat-button>Toggle</button>
+    </p>
+  </mat-sidenav>
+</mat-sidenav-container>
+
 <div class="container">
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </div>
 

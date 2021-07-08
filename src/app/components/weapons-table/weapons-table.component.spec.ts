@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { WeaponsTableComponent } from './weapons-table.component';
+import {WeaponsTableComponent} from './weapons-table.component';
 
 describe('WeaponsTableComponent', () => {
   let component: WeaponsTableComponent;

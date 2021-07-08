@@ -1,10 +1,9 @@
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
-import { Weapon } from '../../models/Weapon';
-import { MatTableDataSource } from '@angular/material/table';
-import { MatSort } from '@angular/material/sort';
-import { ComparerService } from '../../services/comparer.service';
-import { MatPaginator } from '@angular/material/paginator';
-import { Operator } from '../../models/Operator';
+import {AfterViewInit, Component, ViewChild} from '@angular/core';
+import {Weapon} from '../../models/Weapon';
+import {MatTableDataSource} from '@angular/material/table';
+import {MatSort} from '@angular/material/sort';
+import {ComparerService} from '../../services/comparer.service';
+import {MatPaginator} from '@angular/material/paginator';
 
 @Component({
   selector: 'app-weapons-table',
@@ -31,11 +30,10 @@ export class WeaponsTableComponent implements AfterViewInit {
           this.weapons.push(
             new Weapon({
               name: weapon.name,
-              usedBy: weapon.usedBy.map(value => new Operator({name: value.name})),
               type: weapon.type,
               action: weapon.action,
               slot: weapon.slot,
-              RPM: weapon.RPM,
+              rpm: weapon.rpm,
               damageRanges: weapon.damageRanges,
             })
           )
@@ -88,7 +86,7 @@ export class WeaponsTableComponent implements AfterViewInit {
             break;
           }
           case 'RPM': {
-            comparison = a.RPM - b.RPM;
+            comparison = a.rpm - b.rpm;
             break;
           }
           case 'DPS': {

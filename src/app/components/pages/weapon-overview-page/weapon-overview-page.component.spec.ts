@@ -1,6 +1,6 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, TestBed} from '@angular/core/testing';
 
-import { WeaponOverviewPageComponent } from './weapon-overview-page.component';
+import {WeaponOverviewPageComponent} from './weapon-overview-page.component';
 
 describe('CompareComponent', () => {
   let component: WeaponOverviewPageComponent;
