@@ -1,10 +1,12 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { CompareComponent } from './core/pages/compare/compare.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {WeaponOverviewPageComponent} from './components/pages/weapon-overview-page/weapon-overview-page.component';
+import {WeaponPageComponent} from './components/pages/weapon-page/weapon-page.component';
 
 const routes: Routes = [
-  {path: '', component: CompareComponent},
-  {path: '**', redirectTo: ''}
+  {path: '', component: WeaponOverviewPageComponent},
+  {path: 'weapon/:name', component: WeaponPageComponent},
+  {path: '**', redirectTo: ''},
 ];
 
 @NgModule({

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CompareComponent } from './compare.component';
+import { WeaponPageComponent } from './weapon-page.component';
 
-describe('CompareComponent', () => {
-  let component: CompareComponent;
-  let fixture: ComponentFixture<CompareComponent>;
+describe('WeaponPageComponent', () => {
+  let component: WeaponPageComponent;
+  let fixture: ComponentFixture<WeaponPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [CompareComponent]
+      declarations: [WeaponPageComponent]
     })
       .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CompareComponent);
+    fixture = TestBed.createComponent(WeaponPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

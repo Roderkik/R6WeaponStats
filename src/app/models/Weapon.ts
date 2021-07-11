@@ -1,19 +1,22 @@
-import { WeaponParameters } from './WeaponParameters';
+import {WeaponParameters} from './WeaponParameters';
+import {Operator} from './Operator';
 
 export class Weapon {
   public name: string;
   public type: string;
   public action: string;
   public slot: string;
-  public RPM: number;
+  public rpm: number;
   public damageRanges: number[];
+
+  public operators?: Operator[];
 
   constructor(init?: Partial<Weapon>) {
     Object.assign(this, init);
   }
 
   get RPS(): number {
-    return this.RPM / 60;
+    return this.rpm / 60;
   }
 
   /**
@@ -46,7 +49,7 @@ export class Weapon {
    * ETTK = (Effective Shots To Kill - 1) * 60 / Rounds Per Minute * 1000
    */
   ETTK(parameters: WeaponParameters): number {
-    return (((this.ESTK(parameters) - 1) * 60) / this.RPM) * 1000;
+    return (((this.ESTK(parameters) - 1) * 60) / this.rpm) * 1000;
   }
 
   /**

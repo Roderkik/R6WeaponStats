@@ -37,7 +37,7 @@
                 </th>
                 <td *matCellDef="let weapon"
                     mat-cell
-                > {{weapon.RPM}} </td>
+                > {{weapon.rpm}} </td>
             </ng-container>
             <ng-container matColumnDef="DPS">
                 <th *matHeaderCellDef
@@ -84,6 +84,7 @@
             ></tr>
             <tr *matRowDef="let row; columns: ['name', 'damage', 'RPM', 'DPS', 'TTK', 'STK'];"
                 mat-row
+                (click)="onTableRowClick(row)"
             ></tr>
         </table>
         <mat-paginator [pageSizeOptions]="[14, 5, 10, 11, 12, 13, 15, 20, 50]"

@@ -1,10 +1,10 @@
-import { Injectable } from '@angular/core';
-import { StatsService } from '../stats.service';
-import { Weapon } from '../shared/models/Weapon';
-import { WeaponParameters } from '../shared/models/WeaponParameters';
-import { LocalStorageService, StorageKeys } from './local-storage.service';
-import { Observable } from 'rxjs';
-import { WeaponFilters } from '../shared/models/WeaponFilters';
+import {Injectable} from '@angular/core';
+import {WeaponService} from './weapon.service';
+import {Weapon} from '../models/Weapon';
+import {WeaponParameters} from '../models/WeaponParameters';
+import {LocalStorageService, StorageKeys} from './local-storage.service';
+import {Observable} from 'rxjs';
+import {WeaponFilters} from '../models/WeaponFilters';
 
 @Injectable()
 export class ComparerService {
@@ -12,7 +12,7 @@ export class ComparerService {
   public filters: WeaponFilters;
 
   constructor(
-    private stats: StatsService,
+    private weapon: WeaponService,
     private localStorage: LocalStorageService
   ) {
     this.parameters = this.getStoredParameters();
@@ -20,7 +20,7 @@ export class ComparerService {
   }
 
   getWeapons(): Observable<Weapon[]> {
-    return this.stats.getWeapons();
+    return this.weapon.all();
   }
 
   getStoredParameters(): WeaponParameters {

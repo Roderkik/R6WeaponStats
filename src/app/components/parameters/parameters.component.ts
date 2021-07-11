@@ -1,7 +1,7 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { ComparerService } from '../../../core/comparer.service';
-import { WeaponParameters } from '../../models/WeaponParameters';
-import { MatCheckboxChange } from '@angular/material/checkbox';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
+import {ComparerService} from '../../services/comparer.service';
+import {WeaponParameters} from '../../models/WeaponParameters';
+import {MatCheckboxChange} from '@angular/material/checkbox';
 
 @Component({
   selector: 'app-parameters',
