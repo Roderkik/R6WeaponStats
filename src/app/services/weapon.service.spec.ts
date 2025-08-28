@@ -1,8 +1,8 @@
-import { TestBed } from '@angular/core/testing';
+import {TestBed} from '@angular/core/testing';
 
-import { WeaponService } from './weapon.service';
+import {WeaponService} from './weapon.service';
 
-describe('StatsService', () => {
+describe('WeaponService', () => {
   let service: WeaponService;
 
   beforeEach(() => {
